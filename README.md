@@ -14,7 +14,7 @@ To install visual studio project template for revit add-in development, clone or
 
 - Double click **Revit2017** folder, select all files and *zip* it into a single .zip file as `Revit2017.zip`.
 
-- Copy the `Revit2017.zip` and paste it into the visual studio project template folder. If you don't know here the VS project template folder is, there's a quick way to open it, follow the below steps:
+- Copy the `Revit2017.zip` and paste it into the visual studio project template folder. If you don't know where is the VS project template folder, here's a quick way to open it:
     - Press `Win` + `R` keys to open RUN box. 
     - Paste `C:\Users\%USERNAME%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#` and enter.
 
