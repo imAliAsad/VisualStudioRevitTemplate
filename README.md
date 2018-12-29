@@ -20,6 +20,12 @@ To install visual studio project template for revit add-in development, clone or
 
 - Restart the Visual Studio, click on *File->New->Project*, and you should see `Revit 2017 WPF Addin` project template under Visual C#.
 
+## Features
+- The project is setup with MVVM
+- Auto create ribbon tab and panel
+- Well organized code and files
+
+
 
 ## Contact me?
  - :e-mail: [Email](mailto:imaliasad@outlook.com)
