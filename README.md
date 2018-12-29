@@ -18,6 +18,8 @@ To install visual studio project template for revit add-in development, clone or
 ## Features
 - The project is setup with MVVM and WPF
 - Auto create ribbon tab and panel
+- Have Util.cs for writing helping methods
+- Have the implementation of Singleton.cs  
 - Well organized code and files
 
 ## Contact me?
