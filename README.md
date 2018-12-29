@@ -1,7 +1,7 @@
 # Visual Studio Revit Add-in Template (WPF)
 
 [![Join the chat at https://gitter.im/VisualStudioRevitTemplate/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/VisualStudioRevitTemplate/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)
+[![License](http://img.shields.io/:license-MIT-brown.svg)](http://opensource.org/licenses/MIT)
 
 <img src="https://github.com/imAliAsad/VisualStudioRevitTemplate/blob/master/imgs/Revit2017WPF.PNG" height="400" width="650">
 
