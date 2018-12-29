@@ -1,6 +1,6 @@
 # Visual Studio Revit Add-in Template
 
-<img src="https://github.com/imAliAsad/VisualStudioRevitTemplate/blob/master/imgs/Revit2017WPF.PNG">
+<img src="https://github.com/imAliAsad/VisualStudioRevitTemplate/blob/master/imgs/Revit2017WPF.PNG" height="400" width="650">
 
 ![Revit API](https://img.shields.io/badge/Revit%20API-2017-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)
