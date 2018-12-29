@@ -2,6 +2,7 @@
 
 <img src="https://github.com/imAliAsad/VisualStudioRevitTemplate/blob/master/imgs/Revit2017WPF.PNG" height="400" width="650">
 
+[![Join the chat at https://gitter.im/VisualStudioRevitTemplate/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/VisualStudioRevitTemplate/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 ![Revit API](https://img.shields.io/badge/Revit%20API-2017-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)
 ![.NET](https://img.shields.io/badge/.NET-4.5-blue.svg)
@@ -24,8 +25,6 @@ To install visual studio project template for revit add-in development, clone or
 - The project is setup with MVVM
 - Auto create ribbon tab and panel
 - Well organized code and files
-
-
 
 ## Contact me?
  - :e-mail: [Email](mailto:imaliasad@outlook.com)
