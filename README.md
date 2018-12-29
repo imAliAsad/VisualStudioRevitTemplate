@@ -1,4 +1,4 @@
-# Visual Studio Revit Add-in Template
+# Visual Studio Revit Add-in Template (WPF)
 
 <img src="https://github.com/imAliAsad/VisualStudioRevitTemplate/blob/master/imgs/Revit2017WPF.PNG" height="400" width="650">
 
