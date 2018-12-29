@@ -6,11 +6,10 @@ Empowering you to use visual studio's WPF template for Revit add-in development.
 
 
 ## Features
-- The project is setup with MVVM and WPF
+- Well organized MVVM architecture for Revit add-in development
+- WPF user control to design beautiful Revit add-in
 - Auto create ribbon tab and panel
-- Have Util.cs for writing helping methods
-- Have the implementation of Singleton.cs  
-- Well organized code and files
+- Util.cs for writing helping methods
 
 
 ## Installation
