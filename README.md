@@ -2,9 +2,6 @@
 
 <img src="https://github.com/imAliAsad/VisualStudioRevitTemplate/blob/master/imgs/Revit2017WPF.PNG" height="400" width="650">
 
-[![Join the chat at https://gitter.im/VisualStudioRevitTemplate/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/VisualStudioRevitTemplate/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)
-
 Empowering you to use visual studio's WPF template for Revit add-in development.
 
 ## Installation
@@ -26,3 +23,13 @@ To install visual studio project template for revit add-in development, clone or
 ## Contact me?
  - :e-mail: [Email](mailto:imaliasad@outlook.com)
  - :thumbsup: [Twitter](https://twitter.com/imaliasad)
+
+
+[![Join the chat at https://gitter.im/VisualStudioRevitTemplate/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/VisualStudioRevitTemplate/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)
+
+<div align="left">
+  <sub>Created by
+  <a href="https://twitter.com/imaliasad">Ali Asad</a>
+</div>
+<br>
