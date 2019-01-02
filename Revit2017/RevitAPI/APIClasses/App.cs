@@ -15,7 +15,7 @@ namespace $safeprojectname$
 {
     class App : IExternalApplication
     {
-        public static PushButton SiteLocateButton { get; set; }
+        public static PushButton $safeprojectname$Button { get; set; }
 
 
         public Result OnStartup(UIControlledApplication application)
@@ -29,13 +29,13 @@ namespace $safeprojectname$
         private void Application_ViewActivated(object sender, Autodesk.Revit.UI.Events.ViewActivatedEventArgs e)
         {
             var app = (Autodesk.Revit.UI.UIApplication)sender;
-            Revit2017WPFTemplateUserControl.Instance.TextBlockProjectTitle.Text = app.ActiveUIDocument.Document.Title;
+            $safeprojectname$UserControl.Instance.TextBlockProjectTitle.Text = app.ActiveUIDocument.Document.Title;
         }
 
 
         public Result OnShutdown(UIControlledApplication a)
         {
-            SiteLocateButton.Enabled = true;
+            $safeprojectname$Button.Enabled = true;
             return Result.Succeeded;
         }
 
@@ -96,7 +96,7 @@ namespace $safeprojectname$
             var ribbonPanel = RibbonPanel(application);
 
 
-            SiteLocateButton = ribbonPanel.AddItem(buttondata) as PushButton;
+            $safeprojectname$Button = ribbonPanel.AddItem(buttondata) as PushButton;
 
         }
 

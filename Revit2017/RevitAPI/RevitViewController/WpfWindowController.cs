@@ -69,7 +69,7 @@ namespace $safeprojectname$
                 Window.Show();
 
                 Window.Closed += OnClosing;
-                App.SiteLocateButton.Enabled = false;
+                App.$safeprojectname$Button.Enabled = false;
 
 
             }
@@ -77,7 +77,7 @@ namespace $safeprojectname$
 
         public void OnClosing(object sender, EventArgs e)
         {
-            App.SiteLocateButton.Enabled = true;
+            App.$safeprojectname$Button.Enabled = true;
             WpfWindowController.Instance = null;
             $safeprojectname$UserControl.Instance = null;
         }

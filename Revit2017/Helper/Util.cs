@@ -16,11 +16,11 @@ namespace $safeprojectname$
     {
         #region Revit Addin Info
 
-        public const string AddinButtonText = "Default\n Addin";
-        public const string AddinButtonTooltip = "New Addin";
-        public static string ProjectName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
-        public const string AddinRibbonTabName = "Archcorp";
-        public const string AddinRibbonPanel = "Architecture";
+        public const string AddinButtonText = "$safeprojectname$\n Addin";
+        public const string AddinButtonTooltip = "A New Addin";
+        public static string ProjectName = "$safeprojectname$";
+        public const string AddinRibbonTabName = "Custom Addin Tab";
+        public const string AddinRibbonPanel = "Addins Panel";
 
         public const string ApplicationWindowTitle = "Revit Addin";
         public const int ApplicationWindowHeight = 350;
