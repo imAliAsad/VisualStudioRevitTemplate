@@ -14,7 +14,7 @@ namespace $safeprojectname$
         // class instance
         public static WpfWindowController Instance;
         // ModelessForm instance
-        private Revit2017WPFTemplateUserControl _Revit2017WPFTemplateUserControl;
+        private $safeprojectname$UserControl _$safeprojectname$UserControl;
 
         public System.Windows.Window Window = new System.Windows.Window();
 
@@ -22,7 +22,7 @@ namespace $safeprojectname$
         public Result OnStartup(UIControlledApplication application)
         {
 
-            _Revit2017WPFTemplateUserControl = null;
+            _$safeprojectname$UserControl = null;
             return Result.Succeeded;
         }
 
@@ -39,7 +39,7 @@ namespace $safeprojectname$
 
         public void ShowForm(UIApplication uiapp)
         {
-            if (_Revit2017WPFTemplateUserControl == null)
+            if (_$safeprojectname$UserControl == null)
             {
                 if (Instance == null)
                 {
@@ -56,10 +56,10 @@ namespace $safeprojectname$
                 // The dialog becomes the owner responsible for disposing them, eventually.
 
 
-                _Revit2017WPFTemplateUserControl = new Revit2017WPFTemplateUserControl(exEvent);
+                _$safeprojectname$UserControl = new $safeprojectname$UserControl(exEvent);
                 BitmapImage pb1Image = new BitmapImage(new Uri("pack://application:,,,/$safeprojectname$;component/Resources/icon.ico"));
 
-                Window.Content = _Revit2017WPFTemplateUserControl;
+                Window.Content = _$safeprojectname$UserControl;
                 Window.Icon = pb1Image;
                 Window.Title = Util.ApplicationWindowTitle;
                 Window.Height = Util.ApplicationWindowHeight;
@@ -79,7 +79,7 @@ namespace $safeprojectname$
         {
             App.SiteLocateButton.Enabled = true;
             WpfWindowController.Instance = null;
-            Revit2017WPFTemplateUserControl.Instance = null;
+            $safeprojectname$UserControl.Instance = null;
         }
     }
 

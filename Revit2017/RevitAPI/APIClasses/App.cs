@@ -87,7 +87,7 @@ namespace $safeprojectname$
 
             // Create two push buttons
 
-            PushButtonData buttondata = new PushButtonData("Revit2017WPFTemplateBtn", buttonText, dllLocation, "$safeprojectname$.Command");
+            PushButtonData buttondata = new PushButtonData("$safeprojectname$Btn", buttonText, dllLocation, "$safeprojectname$.Command");
             buttondata.ToolTip = buttonTooltip;
 
             BitmapImage pb1Image = new BitmapImage(new Uri("pack://application:,,,/$safeprojectname$;component/Resources/icon.ico"));

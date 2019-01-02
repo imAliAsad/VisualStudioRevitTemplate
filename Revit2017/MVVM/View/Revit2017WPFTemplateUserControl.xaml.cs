@@ -20,14 +20,14 @@ namespace $safeprojectname$
     /// <summary>
     /// UI Events
     /// </summary>
-    public partial class Revit2017WPFTemplateUserControl : UserControl
+    public partial class $safeprojectname$UserControl : UserControl
     {
-        public static Revit2017WPFTemplateUserControl Instance;
+        public static $safeprojectname$UserControl Instance;
 
         public ViewModel ViewModel;
         private ExternalEvent _event;
 
-        public Revit2017WPFTemplateUserControl(ExternalEvent exEvent)
+        public $safeprojectname$UserControl(ExternalEvent exEvent)
         {
             InitializeComponent();
 

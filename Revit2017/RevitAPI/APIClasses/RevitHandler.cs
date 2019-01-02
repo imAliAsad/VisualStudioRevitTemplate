@@ -24,7 +24,7 @@ namespace $safeprojectname$
 
             if (isRunFirstTime)
             {
-                Revit2017WPFTemplateUserControl.Instance.TextBlockProjectTitle.Text = doc.Title;
+                $safeprojectname$UserControl.Instance.TextBlockProjectTitle.Text = doc.Title;
                 isRunFirstTime = false;
             }
             try

@@ -18,7 +18,7 @@ namespace $safeprojectname$
 
         public const string AddinButtonText = "Default\n Addin";
         public const string AddinButtonTooltip = "New Addin";
-
+        public static string ProjectName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
         public const string AddinRibbonTabName = "Archcorp";
         public const string AddinRibbonPanel = "Architecture";
 
