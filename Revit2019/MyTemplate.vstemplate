@@ -1,0 +1,49 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Revit 2019 WPF Addin</Name>
+    <Description>Class library template for a Revit 2019 C# .NET add-in project</Description>
+    <ProjectType>CSharp</ProjectType> 
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>RevitAddin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project ReplaceParameters="true"  File="Revit2017WPFTemplate.csproj">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.csproj.user">Revit2017WPFTemplate.csproj.user</ProjectItem>
+	  <Folder Name="Helper" TargetFolderName="Helper">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Singleton.cs">Singleton.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Util.cs">Util.cs</ProjectItem>
+      </Folder>
+      <Folder Name="MVVM" TargetFolderName="MVVM">
+        <Folder Name="Model" TargetFolderName="Model" />
+        <Folder Name="View" TargetFolderName="View">
+          <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$UserControl.xaml">Revit2017WPFTemplateUserControl.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$UserControl.xaml.cs">Revit2017WPFTemplateUserControl.xaml.cs</ProjectItem>
+        </Folder>
+        <Folder Name="ViewModel" TargetFolderName="ViewModel">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ViewModel.cs">ViewModel.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.addin">RegisterAddin.addin</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon.ico">icon.ico</ProjectItem>
+      </Folder>
+      <Folder Name="RevitAPI" TargetFolderName="RevitAPI">
+        <Folder Name="APIClasses" TargetFolderName="APIClasses">
+          <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Command.cs">Command.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="RevitHandler.cs">RevitHandler.cs</ProjectItem>
+        </Folder>
+        <Folder Name="RevitViewController" TargetFolderName="RevitViewController">
+          <ProjectItem ReplaceParameters="true" TargetFileName="WpfWindowController.cs">WpfWindowController.cs</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
