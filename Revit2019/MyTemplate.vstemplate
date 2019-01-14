@@ -11,8 +11,8 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project ReplaceParameters="true"  File="Revit2017WPFTemplate.csproj">
-      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.csproj.user">Revit2017WPFTemplate.csproj.user</ProjectItem>
+    <Project ReplaceParameters="true"  File="Revit2019WPFTemplate.csproj">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.csproj.user">Revit2019WPFTemplate.csproj.user</ProjectItem>
 	  <Folder Name="Helper" TargetFolderName="Helper">
         <ProjectItem ReplaceParameters="true" TargetFileName="Singleton.cs">Singleton.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Util.cs">Util.cs</ProjectItem>
@@ -20,8 +20,8 @@
       <Folder Name="MVVM" TargetFolderName="MVVM">
         <Folder Name="Model" TargetFolderName="Model" />
         <Folder Name="View" TargetFolderName="View">
-          <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$UserControl.xaml">Revit2017WPFTemplateUserControl.xaml</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$UserControl.xaml.cs">Revit2017WPFTemplateUserControl.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$UserControl.xaml">Revit2019WPFTemplateUserControl.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$UserControl.xaml.cs">Revit2019WPFTemplateUserControl.xaml.cs</ProjectItem>
         </Folder>
         <Folder Name="ViewModel" TargetFolderName="ViewModel">
           <ProjectItem ReplaceParameters="true" TargetFileName="ViewModel.cs">ViewModel.cs</ProjectItem>
